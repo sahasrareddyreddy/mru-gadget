@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header,footer{
+    background-color: rgb(38, 8, 71);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+.team-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 30px;
+}
+.card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.card{
+    background-color: #f9f9f9;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgb(124,112,112);
+    transition: transform .5s ease;
+}
+.price{
+    color: blue;
+}
+button{
+    border-color: blue;
+    background-color: blue;
+    color: white;
+    width: 150px;
+    font-weight: bold;
+}
